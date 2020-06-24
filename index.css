@@ -39,6 +39,10 @@ body {
 	padding-left: 10%;
 }
 @media only screen and (max-width: 900px) {
+	body {
+		width: 139%;
+		/* width: min-content; */
+	}
 	#hero-image {
 		padding-left: 0px;
 	}
