@@ -1,0 +1,100 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	overflow-x: hidden;
+}
+.hero {
+	background-color: #ff9595;
+}
+.navbar {
+	color: white;
+}
+.navbar-brand,
+.nav-link {
+	color: white;
+}
+.navbar-brand:hover {
+	color: white;
+}
+.nav-link:hover {
+	color: white;
+	border-bottom: 3px solid #cf7979;
+}
+.hero-images {
+	padding-top: 30px;
+	filter: drop-shadow(0px 0px -10px black);
+	transform: rotate(20deg);
+	transition: 2s;
+}
+.hero-images:hover {
+	filter: drop-shadow(0px 0px 50px black);
+	transform: rotate(0deg);
+	transition: 1s;
+}
+#hero-image {
+	padding-left: 10%;
+}
+@media only screen and (max-width: 900px) {
+	#hero-image {
+		padding-left: 0px;
+	}
+}
+.container-fluid {
+	margin-top: 45px;
+}
+.header {
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 65px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.button-apple {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+.button-google-play {
+	text-decoration: none;
+	color: white;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+.button-apple:hover,
+.button-google-play:hover {
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	transition: 0.8s;
+}
+.main {
+	background-color: transparent;
+	margin: 20px 0px 20px 0px;
+}
+.fa-check-circle,
+.fa-bullseye,
+.fa-heart {
+	font-size: 100px;
+	color: #ff9595;
+	transition: .8s;
+}
+.fa-check-circle:hover,
+.fa-bullseye:hover,
+.fa-heart:hover {
+	color: #ff4c68;
+	transition: 0.8s;
+}
+.sub {
+	color: #8f8f8f;
+}
+.title {
+	font-weight: 1.5rem;
+}
